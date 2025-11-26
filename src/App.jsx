@@ -10,11 +10,7 @@ function App() {
     <Routes>
       <Route
         path="/"
-        element={
-          <div className="text-7xl">
-            Project Template || Please read readme file
-          </div>
-        }
+        element={<div className="text-7xl">Under Maintainance</div>}
       />
 
       <Route path="app" element={<DashboardLayout />}>
